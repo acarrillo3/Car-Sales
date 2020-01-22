@@ -18,7 +18,7 @@ const initialState = {
 };
 
 const reducer = (state = initialState, action) => {
-    return {}
+    return state
 }
 
-const store = createStore(reducer, initialState);
+export const store = createStore(reducer, initialState);
