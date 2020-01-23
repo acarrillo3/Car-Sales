@@ -1,5 +1,3 @@
-import { createStore } from 'redux';
-
 const initialState = {
     additionalPrice: 0,
     car: {
@@ -17,8 +15,6 @@ const initialState = {
     ]
 };
 
-const reducer = (state = initialState, action) => {
+export const reducer = (state = initialState, action) => {
     return state
 }
-
-export const store = createStore(reducer, initialState);
